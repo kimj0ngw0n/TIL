@@ -99,9 +99,12 @@ path('hello/<str:name>/', views.hello, name='str_hello')
 
 - 서버가 보내오는 응답
 
-    2xx: 성공. 모두 200에 포함될 수 있다
+    2xx: 성공. 의미상 모두 200에 포함될 수 있음
+    
     3xx: redirect가 성공했다는 의미
+    
     4xx: 클라이언트 에러 응답
+    
     5xx: 서버 에러 응답
 
 - 좋은 웹은 책임소재가 명확해야한다.
