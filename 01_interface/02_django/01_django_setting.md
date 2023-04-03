@@ -84,3 +84,5 @@ $ python manage.py migrate <APP_NAME>
 ```
 
 `APP_NAME` 생략 시 모든 `app`에 대해 migrate 한다.
+
+`makemigrations`을 10000번 하면 에러가 나지 않고 `/migrations/10000...` 의 형태로 계속 파일이 생성된다.
