@@ -91,3 +91,26 @@ git과 원격 저장소와의 상호작용
 
     fetch + 병합. 원격 저장소를 가져와서 병합하기.
 
+## 10. 설치파일
+
+설치 파일 및 DB는 git에 넣지 않는다.
+
+1. `.gitignore`
+
+    git hub에 올리지 않을 파일의 확장자 명을 적는 파일.
+    
+    [toptal](https://www.toptal.com/developers/gitignore/)에서 `python, django, venv, windows` 등의 키워드를 입력하여 올리지 않을 파일들을 정리해줌.
+
+    직접 입력할수도 있음.
+
+2. `freeze`
+
+가상 환경에 설치된 프로그램들의 버전을 나타내는 파일 이름.
+
+가상 환경에서 프로그램 버전 불러오기
+
+`pip freeze > requiremenets.txt`
+
+가상 환경에서 버전에 따라 프로그램 한번에 설치하기
+
+`pip install -r requirements.txt`
