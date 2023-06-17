@@ -6,7 +6,5 @@ def solution(citations):
     return 0
 
 
-
-
 print(solution([3, 0, 6, 1, 5]))
 print(solution([6, 6, 6]))
